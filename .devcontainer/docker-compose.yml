@@ -41,6 +41,9 @@ services:
       PGADMIN_LISTEN_PORT: 5050
       PGADMIN_CONFIG_PROXY_X_HOST_COUNT: 1
       PGADMIN_CONFIG_PROXY_X_PREFIX_COUNT: 1
+      PGADMIN_CONFIG_CONSOLE_LOG_LEVEL: 10
+    ports:
+      - "5050:5050"
 volumes:
   postgres-data:
   pgadmin-data:
