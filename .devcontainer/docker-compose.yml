@@ -43,3 +43,4 @@ services:
       PGADMIN_CONFIG_PROXY_X_PREFIX_COUNT: 1
 volumes:
   postgres-data:
+  pgadmin-data:
