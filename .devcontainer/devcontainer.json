@@ -15,7 +15,7 @@
 	"forwardPorts": [
 		3000,
 		5432,
-		5050
+		"pgadmin:5050"
 	]
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
